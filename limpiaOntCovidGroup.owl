@@ -1,0 +1,1267 @@
+Prefix(:=<http://www.semanticweb.org/ontologies/2020/4/untitled-ontology-58#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/ontologies/2020/4/untitled-ontology-58>
+
+Declaration(Class(:Adeverse_Reaction))
+Declaration(Class(:Adult))
+Declaration(Class(:Child))
+Declaration(Class(:Contagion_Chain))
+Declaration(Class(:Contagion_Chain_Asymptomatic))
+Declaration(Class(:Contagion_Chain_Concern))
+Declaration(Class(:Contagion_Chain_Healthy))
+Declaration(Class(:Contagion_Chain_International))
+Declaration(Class(:Contagion_Chain_Large))
+Declaration(Class(:Contagion_Chain_Lethal))
+Declaration(Class(:Contagion_Chain_Lethal_Unisex))
+Declaration(Class(:Contagion_Chain_MultiCity))
+Declaration(Class(:Contagion_Chain_Pediatric))
+Declaration(Class(:Contagion_Chain_Unisex))
+Declaration(Class(:Cormobidity))
+Declaration(Class(:Country))
+Declaration(Class(:Dentist_Role))
+Declaration(Class(:Disease))
+Declaration(Class(:District))
+Declaration(Class(:Doctor))
+Declaration(Class(:Doctor_Role))
+Declaration(Class(:First_Level_Unit))
+Declaration(Class(:Full_Term_Neonate))
+Declaration(Class(:Gender))
+Declaration(Class(:Group))
+Declaration(Class(:Infant))
+Declaration(Class(:Intensive_Care_Unit))
+Declaration(Class(:Man))
+Declaration(Class(:Medical_Practicioner))
+Declaration(Class(:Medical_Role))
+Declaration(Class(:Medical_Unit))
+Declaration(Class(:Natural_Group))
+Declaration(Class(:Newborn))
+Declaration(Class(:Nurse))
+Declaration(Class(:Nurse_Role))
+Declaration(Class(:Ocupational_Role))
+Declaration(Class(:Patient_Active))
+Declaration(Class(:Patient_Asymptomatic))
+Declaration(Class(:Patient_Critical))
+Declaration(Class(:Patient_Home))
+Declaration(Class(:Patient_Hospitalization))
+Declaration(Class(:Patient_Role))
+Declaration(Class(:Patient_Serious))
+Declaration(Class(:Patient_Stable))
+Declaration(Class(:Patient_Symptomatic))
+Declaration(Class(:Person))
+Declaration(Class(:Person_Deceased))
+Declaration(Class(:Person_Infected))
+Declaration(Class(:Person_Recovered))
+Declaration(Class(:Pregnant_Woman))
+Declaration(Class(:Preterm_Neonate))
+Declaration(Class(:Province))
+Declaration(Class(:Role))
+Declaration(Class(:Second_Level_Unit))
+Declaration(Class(:Sequel))
+Declaration(Class(:Sick_Newborn))
+Declaration(Class(:Social_Role))
+Declaration(Class(:Symptom))
+Declaration(Class(:Temporal_Group))
+Declaration(Class(:Third_Level_Unit))
+Declaration(Class(:Toddler))
+Declaration(Class(:Treatement))
+Declaration(Class(:Vaccine))
+Declaration(Class(:Virus))
+Declaration(Class(:Woman))
+Declaration(ObjectProperty(:Belong_To_Chain))
+Declaration(ObjectProperty(:Belong_To_Province))
+Declaration(ObjectProperty(:Belongs_To_Group))
+Declaration(ObjectProperty(:Had_Treatment))
+Declaration(ObjectProperty(:Has_Adverse_Reaction))
+Declaration(ObjectProperty(:Has_Cormobidity))
+Declaration(ObjectProperty(:Has_Disease))
+Declaration(ObjectProperty(:Has_District))
+Declaration(ObjectProperty(:Has_First_Case))
+Declaration(ObjectProperty(:Has_Gender))
+Declaration(ObjectProperty(:Has_Ingested_To))
+Declaration(ObjectProperty(:Has_Last_Case))
+Declaration(ObjectProperty(:Has_Role))
+Declaration(ObjectProperty(:Has_Sequel))
+Declaration(ObjectProperty(:Has_Symptom))
+Declaration(ObjectProperty(:Infected_Directly_To))
+Declaration(ObjectProperty(:Infected_to))
+Declaration(ObjectProperty(:Ingested_At_Hospital))
+Declaration(ObjectProperty(:Is_Adverse_Reaction_Of))
+Declaration(ObjectProperty(:Is_Adverse_Reaction_Of_Group))
+Declaration(ObjectProperty(:Is_Chain_of))
+Declaration(ObjectProperty(:Is_Cormobidity_Of))
+Declaration(ObjectProperty(:Is_Country_Of))
+Declaration(ObjectProperty(:Is_Disease_Of))
+Declaration(ObjectProperty(:Is_District_Of))
+Declaration(ObjectProperty(:Is_First_Case_Of))
+Declaration(ObjectProperty(:Is_Gender_Of))
+Declaration(ObjectProperty(:Is_Group_Of))
+Declaration(ObjectProperty(:Is_Infected_With))
+Declaration(ObjectProperty(:Is_Last_Case_Of))
+Declaration(ObjectProperty(:Is_Role_Of))
+Declaration(ObjectProperty(:Is_Sequel_Of))
+Declaration(ObjectProperty(:Is_Sequel_Of_Group))
+Declaration(ObjectProperty(:Is_Symptom_Of))
+Declaration(ObjectProperty(:Is_Symptom_Of_Group))
+Declaration(ObjectProperty(:Is_Vaccinated_With))
+Declaration(ObjectProperty(:Is_Vaccine_Of))
+Declaration(ObjectProperty(:Is_Vaccine_Of_Group))
+Declaration(ObjectProperty(:Lives_In_Country))
+Declaration(ObjectProperty(:Lives_in_District))
+Declaration(ObjectProperty(:Members_Are_Vaccinated_With))
+Declaration(ObjectProperty(:Members_Have_Adverse_Reaction))
+Declaration(ObjectProperty(:Members_Have_Sequel))
+Declaration(ObjectProperty(:Members_Have_Symptom))
+Declaration(ObjectProperty(:Virus_Infected_To))
+Declaration(ObjectProperty(:Was_Directly_Infected_By))
+Declaration(ObjectProperty(:Was_Infected_By))
+Declaration(ObjectProperty(:Was_Treatment_Of))
+Declaration(DataProperty(:Has_Birth_Date))
+Declaration(DataProperty(:Has_Date_Start))
+Declaration(DataProperty(:Has_Infection_Date))
+Declaration(DataProperty(:Has_Name))
+Declaration(DataProperty(:Hast_Date_End))
+Declaration(NamedIndividual(:Alcohol))
+Declaration(NamedIndividual(:Anemia))
+Declaration(NamedIndividual(:Atshma))
+Declaration(NamedIndividual(:Cancer))
+Declaration(NamedIndividual(:Centro_Habana))
+Declaration(NamedIndividual(:Chain_1))
+Declaration(NamedIndividual(:Chain_2))
+Declaration(NamedIndividual(:Chain_3))
+Declaration(NamedIndividual(:Chronic_lung_disease))
+Declaration(NamedIndividual(:Chronic_obstructive_pulmonary_disease))
+Declaration(NamedIndividual(:Concentration_Problem))
+Declaration(NamedIndividual(:Cough))
+Declaration(NamedIndividual(:Cuba))
+Declaration(NamedIndividual(:Diabetes))
+Declaration(NamedIndividual(:Female))
+Declaration(NamedIndividual(:Fish_Market_Customers))
+Declaration(NamedIndividual(:Football_Game_Participant))
+Declaration(NamedIndividual(:G1))
+Declaration(NamedIndividual(:G10))
+Declaration(NamedIndividual(:G2))
+Declaration(NamedIndividual(:G3))
+Declaration(NamedIndividual(:G4))
+Declaration(NamedIndividual(:G5))
+Declaration(NamedIndividual(:G6))
+Declaration(NamedIndividual(:G7))
+Declaration(NamedIndividual(:G8))
+Declaration(NamedIndividual(:G9))
+Declaration(NamedIndividual(:HIV))
+Declaration(NamedIndividual(:Headache))
+Declaration(NamedIndividual(:Heart_disease))
+Declaration(NamedIndividual(:High_blood_pressure))
+Declaration(NamedIndividual(:Hypertension))
+Declaration(NamedIndividual(:Immunosuppressed))
+Declaration(NamedIndividual(:Intubed))
+Declaration(NamedIndividual(:Kidney_disease))
+Declaration(NamedIndividual(:Malaga))
+Declaration(NamedIndividual(:Male))
+Declaration(NamedIndividual(:Malnutrition))
+Declaration(NamedIndividual(:Moderna))
+Declaration(NamedIndividual(:Pain_At_Injection_Site))
+Declaration(NamedIndividual(:Patient_1))
+Declaration(NamedIndividual(:Patient_10))
+Declaration(NamedIndividual(:Patient_11))
+Declaration(NamedIndividual(:Patient_12))
+Declaration(NamedIndividual(:Patient_2))
+Declaration(NamedIndividual(:Patient_3))
+Declaration(NamedIndividual(:Patient_4))
+Declaration(NamedIndividual(:Patient_5))
+Declaration(NamedIndividual(:Patient_6))
+Declaration(NamedIndividual(:Patient_7))
+Declaration(NamedIndividual(:Patient_8))
+Declaration(NamedIndividual(:Patient_9))
+Declaration(NamedIndividual(:Person1))
+Declaration(NamedIndividual(:Person10))
+Declaration(NamedIndividual(:Person11))
+Declaration(NamedIndividual(:Person12))
+Declaration(NamedIndividual(:Person13))
+Declaration(NamedIndividual(:Person14))
+Declaration(NamedIndividual(:Person2))
+Declaration(NamedIndividual(:Person3))
+Declaration(NamedIndividual(:Person4))
+Declaration(NamedIndividual(:Person5))
+Declaration(NamedIndividual(:Person6))
+Declaration(NamedIndividual(:Person7))
+Declaration(NamedIndividual(:Person8))
+Declaration(NamedIndividual(:Person9))
+Declaration(NamedIndividual(:Pneumonia))
+Declaration(NamedIndividual(:R1))
+Declaration(NamedIndividual(:R10))
+Declaration(NamedIndividual(:R2))
+Declaration(NamedIndividual(:R3))
+Declaration(NamedIndividual(:R4))
+Declaration(NamedIndividual(:R5))
+Declaration(NamedIndividual(:R6))
+Declaration(NamedIndividual(:R7))
+Declaration(NamedIndividual(:R8))
+Declaration(NamedIndividual(:R9))
+Declaration(NamedIndividual(:S1))
+Declaration(NamedIndividual(:S10))
+Declaration(NamedIndividual(:S2))
+Declaration(NamedIndividual(:S3))
+Declaration(NamedIndividual(:S4))
+Declaration(NamedIndividual(:S5))
+Declaration(NamedIndividual(:S6))
+Declaration(NamedIndividual(:S7))
+Declaration(NamedIndividual(:S8))
+Declaration(NamedIndividual(:S9))
+Declaration(NamedIndividual(:Se1))
+Declaration(NamedIndividual(:Se10))
+Declaration(NamedIndividual(:Se2))
+Declaration(NamedIndividual(:Se3))
+Declaration(NamedIndividual(:Se4))
+Declaration(NamedIndividual(:Se5))
+Declaration(NamedIndividual(:Se6))
+Declaration(NamedIndividual(:Se7))
+Declaration(NamedIndividual(:Se8))
+Declaration(NamedIndividual(:Se9))
+Declaration(NamedIndividual(:Sinovac))
+Declaration(NamedIndividual(:Throat_Pain))
+Declaration(NamedIndividual(:Tireness))
+Declaration(NamedIndividual(:Tobacco))
+Declaration(NamedIndividual(:V1))
+Declaration(NamedIndividual(:V10))
+Declaration(NamedIndividual(:V2))
+Declaration(NamedIndividual(:V3))
+Declaration(NamedIndividual(:V4))
+Declaration(NamedIndividual(:V5))
+Declaration(NamedIndividual(:V6))
+Declaration(NamedIndividual(:V7))
+Declaration(NamedIndividual(:V8))
+Declaration(NamedIndividual(:V9))
+Declaration(AnnotationProperty(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: :Belong_To_Chain (:Belong_To_Chain)
+
+InverseObjectProperties(:Belong_To_Chain :Is_Chain_of)
+ObjectPropertyDomain(:Belong_To_Chain :Person)
+ObjectPropertyRange(:Belong_To_Chain :Contagion_Chain)
+
+# Object Property: :Belong_To_Province (:Belong_To_Province)
+
+InverseObjectProperties(:Belong_To_Province :Has_District)
+ObjectPropertyDomain(:Belong_To_Province :District)
+ObjectPropertyRange(:Belong_To_Province :Province)
+
+# Object Property: :Belongs_To_Group (:Belongs_To_Group)
+
+InverseObjectProperties(:Belongs_To_Group :Is_Group_Of)
+
+# Object Property: :Had_Treatment (:Had_Treatment)
+
+InverseObjectProperties(:Had_Treatment :Was_Treatment_Of)
+
+# Object Property: :Has_Adverse_Reaction (:Has_Adverse_Reaction)
+
+InverseObjectProperties(:Has_Adverse_Reaction :Is_Adverse_Reaction_Of)
+
+# Object Property: :Has_Cormobidity (:Has_Cormobidity)
+
+SubObjectPropertyOf(:Has_Cormobidity owl:topObjectProperty)
+InverseObjectProperties(:Has_Cormobidity :Is_Cormobidity_Of)
+
+# Object Property: :Has_Disease (:Has_Disease)
+
+InverseObjectProperties(:Has_Disease :Is_Disease_Of)
+ObjectPropertyDomain(:Has_Disease :Person)
+ObjectPropertyRange(:Has_Disease :Disease)
+
+# Object Property: :Has_District (:Has_District)
+
+ObjectPropertyDomain(:Has_District :Province)
+ObjectPropertyRange(:Has_District :District)
+
+# Object Property: :Has_First_Case (:Has_First_Case)
+
+InverseObjectProperties(:Has_First_Case :Is_First_Case_Of)
+ObjectPropertyDomain(:Has_First_Case :Contagion_Chain)
+ObjectPropertyRange(:Has_First_Case :Person)
+
+# Object Property: :Has_Gender (:Has_Gender)
+
+InverseObjectProperties(:Has_Gender :Is_Gender_Of)
+FunctionalObjectProperty(:Has_Gender)
+ObjectPropertyDomain(:Has_Gender :Person)
+ObjectPropertyRange(:Has_Gender :Gender)
+
+# Object Property: :Has_Ingested_To (:Has_Ingested_To)
+
+InverseObjectProperties(:Has_Ingested_To :Ingested_At_Hospital)
+ObjectPropertyDomain(:Has_Ingested_To :Medical_Unit)
+ObjectPropertyRange(:Has_Ingested_To :Person)
+
+# Object Property: :Has_Last_Case (:Has_Last_Case)
+
+InverseObjectProperties(:Has_Last_Case :Is_Last_Case_Of)
+ObjectPropertyDomain(:Has_Last_Case :Contagion_Chain)
+ObjectPropertyRange(:Has_Last_Case :Person)
+
+# Object Property: :Has_Role (:Has_Role)
+
+InverseObjectProperties(:Has_Role :Is_Role_Of)
+ObjectPropertyDomain(:Has_Role :Person)
+ObjectPropertyRange(:Has_Role :Role)
+
+# Object Property: :Has_Sequel (:Has_Sequel)
+
+InverseObjectProperties(:Has_Sequel :Is_Sequel_Of)
+
+# Object Property: :Has_Symptom (:Has_Symptom)
+
+InverseObjectProperties(:Has_Symptom :Is_Symptom_Of)
+ObjectPropertyRange(:Has_Symptom :Symptom)
+
+# Object Property: :Infected_Directly_To (:Infected_Directly_To)
+
+SubObjectPropertyOf(:Infected_Directly_To :Infected_to)
+InverseObjectProperties(:Infected_Directly_To :Was_Directly_Infected_By)
+ObjectPropertyDomain(:Infected_Directly_To :Person)
+ObjectPropertyRange(:Infected_Directly_To :Person)
+
+# Object Property: :Infected_to (:Infected_to)
+
+InverseObjectProperties(:Infected_to :Was_Infected_By)
+TransitiveObjectProperty(:Infected_to)
+ObjectPropertyDomain(:Infected_to :Person)
+ObjectPropertyRange(:Infected_to :Person)
+
+# Object Property: :Ingested_At_Hospital (:Ingested_At_Hospital)
+
+SubObjectPropertyOf(:Ingested_At_Hospital owl:topObjectProperty)
+ObjectPropertyDomain(:Ingested_At_Hospital :Person)
+ObjectPropertyRange(:Ingested_At_Hospital :Medical_Unit)
+
+# Object Property: :Is_Adverse_Reaction_Of_Group (:Is_Adverse_Reaction_Of_Group)
+
+InverseObjectProperties(:Is_Adverse_Reaction_Of_Group :Members_Have_Adverse_Reaction)
+
+# Object Property: :Is_Chain_of (:Is_Chain_of)
+
+ObjectPropertyDomain(:Is_Chain_of :Contagion_Chain)
+ObjectPropertyRange(:Is_Chain_of :Person)
+
+# Object Property: :Is_Cormobidity_Of (:Is_Cormobidity_Of)
+
+SubObjectPropertyOf(:Is_Cormobidity_Of owl:topObjectProperty)
+
+# Object Property: :Is_Country_Of (:Is_Country_Of)
+
+InverseObjectProperties(:Is_Country_Of :Lives_In_Country)
+ObjectPropertyDomain(:Is_Country_Of :Country)
+ObjectPropertyRange(:Is_Country_Of :Person)
+
+# Object Property: :Is_Disease_Of (:Is_Disease_Of)
+
+ObjectPropertyDomain(:Is_Disease_Of :Disease)
+ObjectPropertyRange(:Is_Disease_Of :Person)
+
+# Object Property: :Is_District_Of (:Is_District_Of)
+
+InverseObjectProperties(:Is_District_Of :Lives_in_District)
+ObjectPropertyDomain(:Is_District_Of :District)
+ObjectPropertyRange(:Is_District_Of :Person)
+
+# Object Property: :Is_First_Case_Of (:Is_First_Case_Of)
+
+ObjectPropertyDomain(:Is_First_Case_Of :Person)
+ObjectPropertyRange(:Is_First_Case_Of :Contagion_Chain)
+
+# Object Property: :Is_Gender_Of (:Is_Gender_Of)
+
+ObjectPropertyDomain(:Is_Gender_Of :Gender)
+ObjectPropertyRange(:Is_Gender_Of :Person)
+
+# Object Property: :Is_Infected_With (:Is_Infected_With)
+
+InverseObjectProperties(:Is_Infected_With :Virus_Infected_To)
+ObjectPropertyDomain(:Is_Infected_With :Person)
+ObjectPropertyRange(:Is_Infected_With :Virus)
+
+# Object Property: :Is_Last_Case_Of (:Is_Last_Case_Of)
+
+ObjectPropertyDomain(:Is_Last_Case_Of :Person)
+ObjectPropertyRange(:Is_Last_Case_Of :Contagion_Chain)
+
+# Object Property: :Is_Role_Of (:Is_Role_Of)
+
+ObjectPropertyDomain(:Is_Role_Of :Role)
+ObjectPropertyRange(:Is_Role_Of :Person)
+
+# Object Property: :Is_Sequel_Of_Group (:Is_Sequel_Of_Group)
+
+InverseObjectProperties(:Is_Sequel_Of_Group :Members_Have_Sequel)
+
+# Object Property: :Is_Symptom_Of (:Is_Symptom_Of)
+
+ObjectPropertyDomain(:Is_Symptom_Of :Symptom)
+
+# Object Property: :Is_Symptom_Of_Group (:Is_Symptom_Of_Group)
+
+InverseObjectProperties(:Is_Symptom_Of_Group :Members_Have_Symptom)
+
+# Object Property: :Is_Vaccinated_With (:Is_Vaccinated_With)
+
+InverseObjectProperties(:Is_Vaccinated_With :Is_Vaccine_Of)
+
+# Object Property: :Is_Vaccine_Of_Group (:Is_Vaccine_Of_Group)
+
+InverseObjectProperties(:Is_Vaccine_Of_Group :Members_Are_Vaccinated_With)
+
+# Object Property: :Lives_In_Country (:Lives_In_Country)
+
+SubObjectPropertyOf(:Lives_In_Country owl:topObjectProperty)
+ObjectPropertyDomain(:Lives_In_Country :Person)
+ObjectPropertyRange(:Lives_In_Country :Country)
+
+# Object Property: :Lives_in_District (:Lives_in_District)
+
+ObjectPropertyDomain(:Lives_in_District :Person)
+ObjectPropertyRange(:Lives_in_District :District)
+
+# Object Property: :Virus_Infected_To (:Virus_Infected_To)
+
+ObjectPropertyDomain(:Virus_Infected_To :Virus)
+ObjectPropertyRange(:Virus_Infected_To :Person)
+
+# Object Property: :Was_Directly_Infected_By (:Was_Directly_Infected_By)
+
+SubObjectPropertyOf(:Was_Directly_Infected_By :Was_Infected_By)
+ObjectPropertyDomain(:Was_Directly_Infected_By :Person)
+ObjectPropertyRange(:Was_Directly_Infected_By :Person)
+
+# Object Property: :Was_Infected_By (:Was_Infected_By)
+
+ObjectPropertyDomain(:Was_Infected_By :Person)
+ObjectPropertyRange(:Was_Infected_By :Person)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: :Has_Birth_Date (:Has_Birth_Date)
+
+DataPropertyDomain(:Has_Birth_Date :Person)
+DataPropertyRange(:Has_Birth_Date xsd:dateTime)
+
+# Data Property: :Has_Date_Start (:Has_Date_Start)
+
+DataPropertyDomain(:Has_Date_Start :Contagion_Chain)
+DataPropertyRange(:Has_Date_Start xsd:dateTime)
+
+# Data Property: :Has_Infection_Date (:Has_Infection_Date)
+
+DataPropertyDomain(:Has_Infection_Date :Person)
+DataPropertyRange(:Has_Infection_Date xsd:dateTime)
+
+# Data Property: :Has_Name (:Has_Name)
+
+DataPropertyDomain(:Has_Name :Person)
+DataPropertyRange(:Has_Name xsd:string)
+
+# Data Property: :Hast_Date_End (:Hast_Date_End)
+
+DataPropertyDomain(:Hast_Date_End :Contagion_Chain)
+DataPropertyRange(:Hast_Date_End xsd:dateTime)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: :Adult (:Adult)
+
+SubClassOf(:Adult :Person)
+DisjointClasses(:Adult :Child)
+DisjointUnion(:Adult :Man :Woman)
+
+# Class: :Child (:Child)
+
+SubClassOf(:Child :Person)
+
+# Class: :Contagion_Chain (:Contagion_Chain)
+
+SubClassOf(:Contagion_Chain :Natural_Group)
+
+# Class: :Contagion_Chain_Asymptomatic (:Contagion_Chain_Asymptomatic)
+
+EquivalentClasses(:Contagion_Chain_Asymptomatic ObjectIntersectionOf(:Contagion_Chain ObjectAllValuesFrom(:Is_Chain_of :Patient_Asymptomatic)))
+SubClassOf(:Contagion_Chain_Asymptomatic :Contagion_Chain)
+
+# Class: :Contagion_Chain_Concern (:Contagion_Chain_Concern)
+
+SubClassOf(:Contagion_Chain_Concern :Contagion_Chain)
+
+# Class: :Contagion_Chain_Healthy (:Contagion_Chain_Healthy)
+
+EquivalentClasses(:Contagion_Chain_Healthy ObjectIntersectionOf(:Contagion_Chain ObjectAllValuesFrom(:Is_Chain_of :Person_Recovered)))
+SubClassOf(:Contagion_Chain_Healthy :Contagion_Chain)
+
+# Class: :Contagion_Chain_International (:Contagion_Chain_International)
+
+SubClassOf(:Contagion_Chain_International :Contagion_Chain_MultiCity)
+
+# Class: :Contagion_Chain_Large (:Contagion_Chain_Large)
+
+EquivalentClasses(:Contagion_Chain_Large ObjectIntersectionOf(:Contagion_Chain ObjectMinCardinality(5 :Is_Chain_of :Person)))
+SubClassOf(:Contagion_Chain_Large :Contagion_Chain)
+
+# Class: :Contagion_Chain_Lethal (:Contagion_Chain_Lethal)
+
+EquivalentClasses(:Contagion_Chain_Lethal ObjectIntersectionOf(:Contagion_Chain ObjectSomeValuesFrom(:Is_Chain_of :Person_Deceased)))
+SubClassOf(:Contagion_Chain_Lethal :Contagion_Chain)
+
+# Class: :Contagion_Chain_Lethal_Unisex (:Contagion_Chain_Lethal_Unisex)
+
+SubClassOf(:Contagion_Chain_Lethal_Unisex :Contagion_Chain_Lethal)
+
+# Class: :Contagion_Chain_MultiCity (:Contagion_Chain_MultiCity)
+
+SubClassOf(:Contagion_Chain_MultiCity :Contagion_Chain)
+
+# Class: :Contagion_Chain_Pediatric (:Contagion_Chain_Pediatric)
+
+EquivalentClasses(:Contagion_Chain_Pediatric ObjectIntersectionOf(:Contagion_Chain ObjectSomeValuesFrom(:Is_Chain_of :Child)))
+SubClassOf(:Contagion_Chain_Pediatric :Contagion_Chain)
+
+# Class: :Contagion_Chain_Unisex (:Contagion_Chain_Unisex)
+
+EquivalentClasses(:Contagion_Chain_Unisex ObjectIntersectionOf(:Contagion_Chain ObjectUnionOf(ObjectAllValuesFrom(:Is_Chain_of ObjectHasValue(:Has_Gender :Female)) ObjectAllValuesFrom(:Is_Chain_of ObjectHasValue(:Has_Gender :Male)))))
+SubClassOf(:Contagion_Chain_Unisex :Contagion_Chain)
+
+# Class: :Country (:Country)
+
+
+# Class: :Dentist_Role (:Dentist_Role)
+
+SubClassOf(:Dentist_Role :Medical_Role)
+
+# Class: :Disease (:Disease)
+
+
+# Class: :District (:District)
+
+
+# Class: :Doctor (:Doctor)
+
+SubClassOf(:Doctor :Medical_Practicioner)
+
+# Class: :Doctor_Role (:Doctor_Role)
+
+SubClassOf(:Doctor_Role :Medical_Role)
+
+# Class: :First_Level_Unit (:First_Level_Unit)
+
+SubClassOf(:First_Level_Unit :Medical_Unit)
+
+# Class: :Full_Term_Neonate (:Full_Term_Neonate)
+
+SubClassOf(:Full_Term_Neonate :Newborn)
+
+# Class: :Gender (:Gender)
+
+EquivalentClasses(:Gender ObjectOneOf(:Female :Male))
+
+# Class: :Infant (:Infant)
+
+SubClassOf(:Infant :Child)
+
+# Class: :Intensive_Care_Unit (:Intensive_Care_Unit)
+
+SubClassOf(:Intensive_Care_Unit :Medical_Unit)
+
+# Class: :Man (:Man)
+
+EquivalentClasses(:Man ObjectIntersectionOf(:Adult ObjectHasValue(:Has_Gender :Male)))
+SubClassOf(:Man :Adult)
+DisjointClasses(:Man :Woman)
+
+# Class: :Medical_Practicioner (:Medical_Practicioner)
+
+EquivalentClasses(:Medical_Practicioner ObjectIntersectionOf(:Person ObjectSomeValuesFrom(:Has_Role :Medical_Role)))
+SubClassOf(:Medical_Practicioner :Person)
+
+# Class: :Medical_Role (:Medical_Role)
+
+SubClassOf(:Medical_Role :Ocupational_Role)
+
+# Class: :Medical_Unit (:Medical_Unit)
+
+
+# Class: :Natural_Group (:Natural_Group)
+
+SubClassOf(:Natural_Group :Group)
+
+# Class: :Newborn (:Newborn)
+
+SubClassOf(:Newborn :Child)
+
+# Class: :Nurse (:Nurse)
+
+SubClassOf(:Nurse :Medical_Practicioner)
+
+# Class: :Nurse_Role (:Nurse_Role)
+
+SubClassOf(:Nurse_Role :Medical_Role)
+
+# Class: :Ocupational_Role (:Ocupational_Role)
+
+SubClassOf(:Ocupational_Role :Social_Role)
+
+# Class: :Patient_Active (:Patient_Active)
+
+SubClassOf(:Patient_Active :Person_Infected)
+SubClassOf(:Patient_Active ObjectUnionOf(:Patient_Serious :Patient_Stable))
+
+# Class: :Patient_Asymptomatic (:Patient_Asymptomatic)
+
+EquivalentClasses(:Patient_Asymptomatic ObjectIntersectionOf(:Person_Infected ObjectExactCardinality(0 :Has_Symptom :Symptom)))
+SubClassOf(:Patient_Asymptomatic :Person_Infected)
+DisjointClasses(:Patient_Asymptomatic :Patient_Symptomatic)
+
+# Class: :Patient_Critical (:Patient_Critical)
+
+SubClassOf(:Patient_Critical :Patient_Serious)
+
+# Class: :Patient_Home (:Patient_Home)
+
+SubClassOf(:Patient_Home :Person_Infected)
+
+# Class: :Patient_Hospitalization (:Patient_Hospitalization)
+
+SubClassOf(:Patient_Hospitalization :Person_Infected)
+
+# Class: :Patient_Role (:Patient_Role)
+
+SubClassOf(:Patient_Role :Medical_Role)
+
+# Class: :Patient_Serious (:Patient_Serious)
+
+SubClassOf(:Patient_Serious :Patient_Active)
+
+# Class: :Patient_Stable (:Patient_Stable)
+
+SubClassOf(:Patient_Stable :Patient_Active)
+
+# Class: :Patient_Symptomatic (:Patient_Symptomatic)
+
+EquivalentClasses(:Patient_Symptomatic ObjectIntersectionOf(:Person_Infected ObjectSomeValuesFrom(:Has_Symptom :Symptom)))
+SubClassOf(:Patient_Symptomatic :Person_Infected)
+
+# Class: :Person (:Person)
+
+DisjointUnion(:Person :Adult :Child)
+
+# Class: :Person_Deceased (:Person_Deceased)
+
+SubClassOf(:Person_Deceased :Person_Infected)
+
+# Class: :Person_Infected (:Person_Infected)
+
+SubClassOf(:Person_Infected :Person)
+DisjointUnion(:Person_Infected :Patient_Active :Person_Deceased :Person_Recovered)
+
+# Class: :Person_Recovered (:Person_Recovered)
+
+SubClassOf(:Person_Recovered :Person_Infected)
+
+# Class: :Pregnant_Woman (:Pregnant_Woman)
+
+SubClassOf(:Pregnant_Woman :Woman)
+
+# Class: :Preterm_Neonate (:Preterm_Neonate)
+
+SubClassOf(:Preterm_Neonate :Newborn)
+
+# Class: :Province (:Province)
+
+
+# Class: :Second_Level_Unit (:Second_Level_Unit)
+
+SubClassOf(:Second_Level_Unit :Medical_Unit)
+
+# Class: :Sick_Newborn (:Sick_Newborn)
+
+SubClassOf(:Sick_Newborn :Newborn)
+
+# Class: :Social_Role (:Social_Role)
+
+SubClassOf(:Social_Role :Role)
+
+# Class: :Symptom (:Symptom)
+
+
+# Class: :Temporal_Group (:Temporal_Group)
+
+SubClassOf(:Temporal_Group :Group)
+
+# Class: :Third_Level_Unit (:Third_Level_Unit)
+
+SubClassOf(:Third_Level_Unit :Medical_Unit)
+
+# Class: :Toddler (:Toddler)
+
+SubClassOf(:Toddler :Child)
+
+# Class: :Virus (:Virus)
+
+
+# Class: :Woman (:Woman)
+
+EquivalentClasses(:Woman ObjectIntersectionOf(:Adult ObjectHasValue(:Has_Gender :Female)))
+SubClassOf(:Woman :Adult)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: :Alcohol (:Alcohol)
+
+ClassAssertion(:Cormobidity :Alcohol)
+
+# Individual: :Anemia (:Anemia)
+
+ClassAssertion(:Cormobidity :Anemia)
+
+# Individual: :Atshma (:Atshma)
+
+ClassAssertion(:Cormobidity :Atshma)
+
+# Individual: :Cancer (:Cancer)
+
+ClassAssertion(:Cormobidity :Cancer)
+
+# Individual: :Centro_Habana (:Centro_Habana)
+
+ClassAssertion(:District :Centro_Habana)
+
+# Individual: :Chain_1 (:Chain_1)
+
+ClassAssertion(:Contagion_Chain :Chain_1)
+ClassAssertion(ObjectExactCardinality(4 :Is_Chain_of) :Chain_1)
+ObjectPropertyAssertion(:Is_Chain_of :Chain_1 :Patient_4)
+
+# Individual: :Chain_2 (:Chain_2)
+
+ClassAssertion(:Contagion_Chain :Chain_2)
+ObjectPropertyAssertion(:Is_Chain_of :Chain_2 :Patient_8)
+
+# Individual: :Chain_3 (:Chain_3)
+
+ClassAssertion(:Contagion_Chain :Chain_3)
+ClassAssertion(ObjectExactCardinality(4 :Is_Chain_of) :Chain_3)
+ObjectPropertyAssertion(:Has_First_Case :Chain_3 :Patient_1)
+ObjectPropertyAssertion(:Has_Last_Case :Chain_3 :Patient_12)
+ObjectPropertyAssertion(:Is_Chain_of :Chain_3 :Patient_12)
+
+# Individual: :Chronic_lung_disease (:Chronic_lung_disease)
+
+ClassAssertion(:Cormobidity :Chronic_lung_disease)
+
+# Individual: :Chronic_obstructive_pulmonary_disease (:Chronic_obstructive_pulmonary_disease)
+
+ClassAssertion(:Cormobidity :Chronic_obstructive_pulmonary_disease)
+
+# Individual: :Concentration_Problem (:Concentration_Problem)
+
+ClassAssertion(:Sequel :Concentration_Problem)
+
+# Individual: :Cough (:Cough)
+
+ClassAssertion(:Sequel :Cough)
+ClassAssertion(:Symptom :Cough)
+
+# Individual: :Diabetes (:Diabetes)
+
+ClassAssertion(:Cormobidity :Diabetes)
+
+# Individual: :Female (:Female)
+
+ClassAssertion(:Gender :Female)
+
+# Individual: :Fish_Market_Customers (:Fish_Market_Customers)
+
+ClassAssertion(:Group :Fish_Market_Customers)
+
+# Individual: :Football_Game_Participant (:Football_Game_Participant)
+
+ClassAssertion(:Group :Football_Game_Participant)
+
+# Individual: :G1 (:G1)
+
+ClassAssertion(:Group :G1)
+
+# Individual: :G10 (:G10)
+
+ClassAssertion(:Group :G10)
+
+# Individual: :G2 (:G2)
+
+ClassAssertion(:Group :G2)
+
+# Individual: :G3 (:G3)
+
+ClassAssertion(:Group :G3)
+
+# Individual: :G4 (:G4)
+
+ClassAssertion(:Group :G4)
+ObjectPropertyAssertion(:Is_Group_Of :G4 :Person7)
+ObjectPropertyAssertion(:Is_Group_Of :G4 :Person8)
+
+# Individual: :G5 (:G5)
+
+ClassAssertion(:Group :G5)
+ObjectPropertyAssertion(:Is_Group_Of :G5 :Person10)
+ObjectPropertyAssertion(:Is_Group_Of :G5 :Person9)
+
+# Individual: :G6 (:G6)
+
+ClassAssertion(:Group :G6)
+
+# Individual: :G7 (:G7)
+
+ClassAssertion(:Group :G7)
+
+# Individual: :G8 (:G8)
+
+ClassAssertion(:Group :G8)
+
+# Individual: :G9 (:G9)
+
+ClassAssertion(:Group :G9)
+
+# Individual: :HIV (:HIV)
+
+ClassAssertion(:Cormobidity :HIV)
+
+# Individual: :Headache (:Headache)
+
+ClassAssertion(:Sequel :Headache)
+ClassAssertion(:Symptom :Headache)
+
+# Individual: :Heart_disease (:Heart_disease)
+
+ClassAssertion(:Cormobidity :Heart_disease)
+
+# Individual: :High_blood_pressure (:High_blood_pressure)
+
+ClassAssertion(:Cormobidity :High_blood_pressure)
+
+# Individual: :Hypertension (:Hypertension)
+
+ClassAssertion(:Cormobidity :Hypertension)
+
+# Individual: :Immunosuppressed (:Immunosuppressed)
+
+ClassAssertion(:Cormobidity :Immunosuppressed)
+
+# Individual: :Intubed (:Intubed)
+
+ClassAssertion(:Treatement :Intubed)
+
+# Individual: :Kidney_disease (:Kidney_disease)
+
+ClassAssertion(:Cormobidity :Kidney_disease)
+
+# Individual: :Malaga (:Malaga)
+
+ClassAssertion(:District :Malaga)
+
+# Individual: :Male (:Male)
+
+ClassAssertion(:Gender :Male)
+
+# Individual: :Malnutrition (:Malnutrition)
+
+ClassAssertion(:Cormobidity :Malnutrition)
+
+# Individual: :Moderna (:Moderna)
+
+ClassAssertion(:Vaccine :Moderna)
+
+# Individual: :Pain_At_Injection_Site (:Pain_At_Injection_Site)
+
+ClassAssertion(:Adeverse_Reaction :Pain_At_Injection_Site)
+
+# Individual: :Patient_1 (:Patient_1)
+
+ClassAssertion(:Patient_Asymptomatic :Patient_1)
+ClassAssertion(:Person_Recovered :Patient_1)
+ObjectPropertyAssertion(:Has_Gender :Patient_1 :Male)
+ObjectPropertyAssertion(:Infected_Directly_To :Patient_1 :Patient_2)
+ObjectPropertyAssertion(:Infected_Directly_To :Patient_1 :Patient_5)
+ObjectPropertyAssertion(:Infected_Directly_To :Patient_1 :Patient_9)
+DataPropertyAssertion(:Has_Infection_Date :Patient_1 "2020-05-08T00:00:00"^^xsd:dateTime)
+
+# Individual: :Patient_10 (:Patient_10)
+
+ClassAssertion(:Patient_Asymptomatic :Patient_10)
+ClassAssertion(:Person_Recovered :Patient_10)
+ObjectPropertyAssertion(:Infected_Directly_To :Patient_10 :Patient_11)
+
+# Individual: :Patient_11 (:Patient_11)
+
+ClassAssertion(:Patient_Asymptomatic :Patient_11)
+ClassAssertion(:Person_Recovered :Patient_11)
+DataPropertyAssertion(:Has_Infection_Date :Patient_11 "2020-05-08T00:00:00"^^xsd:dateTime)
+
+# Individual: :Patient_12 (:Patient_12)
+
+ClassAssertion(:Person_Recovered :Patient_12)
+ObjectPropertyAssertion(:Was_Directly_Infected_By :Patient_12 :Patient_11)
+
+# Individual: :Patient_2 (:Patient_2)
+
+ObjectPropertyAssertion(:Belongs_To_Group :Patient_2 :Football_Game_Participant)
+ObjectPropertyAssertion(:Has_Adverse_Reaction :Patient_2 :Pain_At_Injection_Site)
+ObjectPropertyAssertion(:Has_Gender :Patient_2 :Male)
+ObjectPropertyAssertion(:Has_Sequel :Patient_2 :Concentration_Problem)
+ObjectPropertyAssertion(:Has_Symptom :Patient_2 :Headache)
+ObjectPropertyAssertion(:Has_Symptom :Patient_2 :Throat_Pain)
+ObjectPropertyAssertion(:Infected_Directly_To :Patient_2 :Patient_3)
+ObjectPropertyAssertion(:Is_Vaccinated_With :Patient_2 :Moderna)
+ObjectPropertyAssertion(:Lives_in_District :Patient_2 :Malaga)
+DataPropertyAssertion(:Has_Birth_Date :Patient_2 "1980-01-01T00:00:00"^^xsd:dateTime)
+
+# Individual: :Patient_3 (:Patient_3)
+
+ClassAssertion(:Person_Deceased :Patient_3)
+ObjectPropertyAssertion(:Has_Gender :Patient_3 :Male)
+ObjectPropertyAssertion(:Infected_Directly_To :Patient_3 :Patient_4)
+ObjectPropertyAssertion(:Lives_in_District :Patient_3 :Centro_Habana)
+
+# Individual: :Patient_4 (:Patient_4)
+
+ObjectPropertyAssertion(:Belongs_To_Group :Patient_4 :Football_Game_Participant)
+ObjectPropertyAssertion(:Has_Gender :Patient_4 :Male)
+ObjectPropertyAssertion(:Has_Symptom :Patient_4 :Tireness)
+
+# Individual: :Patient_5 (:Patient_5)
+
+ObjectPropertyAssertion(:Belongs_To_Group :Patient_5 :Football_Game_Participant)
+ObjectPropertyAssertion(:Infected_Directly_To :Patient_5 :Patient_6)
+
+# Individual: :Patient_6 (:Patient_6)
+
+ObjectPropertyAssertion(:Belongs_To_Group :Patient_6 :Fish_Market_Customers)
+ObjectPropertyAssertion(:Has_Symptom :Patient_6 :Throat_Pain)
+ObjectPropertyAssertion(:Infected_Directly_To :Patient_6 :Patient_7)
+
+# Individual: :Patient_7 (:Patient_7)
+
+ClassAssertion(:Child :Patient_7)
+ObjectPropertyAssertion(:Infected_Directly_To :Patient_7 :Patient_8)
+
+# Individual: :Patient_8 (:Patient_8)
+
+ObjectPropertyAssertion(:Belongs_To_Group :Patient_8 :Fish_Market_Customers)
+ObjectPropertyAssertion(:Has_Sequel :Patient_8 :Tireness)
+ObjectPropertyAssertion(:Has_Symptom :Patient_8 :Cough)
+
+# Individual: :Patient_9 (:Patient_9)
+
+ClassAssertion(:Patient_Asymptomatic :Patient_9)
+ClassAssertion(:Person_Recovered :Patient_9)
+ObjectPropertyAssertion(:Infected_Directly_To :Patient_9 :Patient_10)
+
+# Individual: :Person1 (:Person1)
+
+ClassAssertion(:Person :Person1)
+ObjectPropertyAssertion(:Belongs_To_Group :Person1 :G1)
+ObjectPropertyAssertion(:Has_Sequel :Person1 :Se1)
+ObjectPropertyAssertion(:Has_Sequel :Person1 :Se2)
+ObjectPropertyAssertion(:Has_Symptom :Person1 :S1)
+
+# Individual: :Person10 (:Person10)
+
+ClassAssertion(:Person :Person10)
+ObjectPropertyAssertion(:Has_Sequel :Person10 :Se3)
+ObjectPropertyAssertion(:Has_Sequel :Person10 :Se4)
+
+# Individual: :Person11 (:Person11)
+
+ClassAssertion(:Person :Person11)
+ObjectPropertyAssertion(:Belongs_To_Group :Person11 :G6)
+ObjectPropertyAssertion(:Has_Adverse_Reaction :Person11 :R2)
+ObjectPropertyAssertion(:Has_Adverse_Reaction :Person11 :R5)
+ObjectPropertyAssertion(:Is_Vaccinated_With :Person11 :V2)
+
+# Individual: :Person12 (:Person12)
+
+ClassAssertion(:Person :Person12)
+ObjectPropertyAssertion(:Belongs_To_Group :Person12 :G6)
+ObjectPropertyAssertion(:Has_Adverse_Reaction :Person12 :R4)
+
+# Individual: :Person13 (:Person13)
+
+ClassAssertion(:Person :Person13)
+ObjectPropertyAssertion(:Belongs_To_Group :Person13 :G7)
+ObjectPropertyAssertion(:Has_Adverse_Reaction :Person13 :R1)
+ObjectPropertyAssertion(:Has_Adverse_Reaction :Person13 :R3)
+
+# Individual: :Person14 (:Person14)
+
+ClassAssertion(:Person :Person14)
+ObjectPropertyAssertion(:Belongs_To_Group :Person14 :G7)
+ObjectPropertyAssertion(:Has_Adverse_Reaction :Person14 :R6)
+ObjectPropertyAssertion(:Is_Vaccinated_With :Person14 :V2)
+
+# Individual: :Person2 (:Person2)
+
+ClassAssertion(:Person :Person2)
+ObjectPropertyAssertion(:Belongs_To_Group :Person2 :G1)
+ObjectPropertyAssertion(:Has_Sequel :Person2 :Se3)
+ObjectPropertyAssertion(:Has_Symptom :Person2 :S2)
+
+# Individual: :Person3 (:Person3)
+
+ClassAssertion(:Person :Person3)
+ObjectPropertyAssertion(:Belongs_To_Group :Person3 :G2)
+ObjectPropertyAssertion(:Has_Symptom :Person3 :S2)
+
+# Individual: :Person4 (:Person4)
+
+ClassAssertion(:Person :Person4)
+ObjectPropertyAssertion(:Belongs_To_Group :Person4 :G2)
+ObjectPropertyAssertion(:Has_Symptom :Person4 :S5)
+
+# Individual: :Person5 (:Person5)
+
+ClassAssertion(:Person :Person5)
+ObjectPropertyAssertion(:Belongs_To_Group :Person5 :G3)
+ObjectPropertyAssertion(:Has_Symptom :Person5 :S1)
+
+# Individual: :Person6 (:Person6)
+
+ClassAssertion(:Person :Person6)
+ObjectPropertyAssertion(:Belongs_To_Group :Person6 :G3)
+ObjectPropertyAssertion(:Has_Adverse_Reaction :Person6 :R7)
+ObjectPropertyAssertion(:Has_Adverse_Reaction :Person6 :R8)
+ObjectPropertyAssertion(:Has_Symptom :Person6 :S4)
+
+# Individual: :Person7 (:Person7)
+
+ClassAssertion(:Person :Person7)
+ObjectPropertyAssertion(:Has_Symptom :Person7 :S3)
+ObjectPropertyAssertion(:Is_Vaccinated_With :Person7 :V1)
+
+# Individual: :Person8 (:Person8)
+
+ClassAssertion(:Person :Person8)
+
+# Individual: :Person9 (:Person9)
+
+ClassAssertion(:Person :Person9)
+ObjectPropertyAssertion(:Has_Sequel :Person9 :Se6)
+
+# Individual: :Pneumonia (:Pneumonia)
+
+ClassAssertion(:Cormobidity :Pneumonia)
+
+# Individual: :R1 (:R1)
+
+ClassAssertion(:Adeverse_Reaction :R1)
+
+# Individual: :R10 (:R10)
+
+ClassAssertion(:Adeverse_Reaction :R10)
+
+# Individual: :R2 (:R2)
+
+ClassAssertion(:Adeverse_Reaction :R2)
+
+# Individual: :R3 (:R3)
+
+ClassAssertion(:Adeverse_Reaction :R3)
+
+# Individual: :R4 (:R4)
+
+ClassAssertion(:Adeverse_Reaction :R4)
+
+# Individual: :R5 (:R5)
+
+ClassAssertion(:Adeverse_Reaction :R5)
+
+# Individual: :R6 (:R6)
+
+ClassAssertion(:Adeverse_Reaction :R6)
+
+# Individual: :R7 (:R7)
+
+ClassAssertion(:Adeverse_Reaction :R7)
+
+# Individual: :R8 (:R8)
+
+ClassAssertion(:Adeverse_Reaction :R8)
+
+# Individual: :R9 (:R9)
+
+ClassAssertion(:Adeverse_Reaction :R9)
+
+# Individual: :S1 (:S1)
+
+ClassAssertion(:Symptom :S1)
+
+# Individual: :S10 (:S10)
+
+ClassAssertion(:Symptom :S10)
+
+# Individual: :S2 (:S2)
+
+ClassAssertion(:Symptom :S2)
+
+# Individual: :S3 (:S3)
+
+ClassAssertion(:Symptom :S3)
+
+# Individual: :S4 (:S4)
+
+ClassAssertion(:Symptom :S4)
+
+# Individual: :S5 (:S5)
+
+ClassAssertion(:Symptom :S5)
+
+# Individual: :S6 (:S6)
+
+ClassAssertion(:Symptom :S6)
+
+# Individual: :S7 (:S7)
+
+ClassAssertion(:Symptom :S7)
+
+# Individual: :S8 (:S8)
+
+ClassAssertion(:Symptom :S8)
+
+# Individual: :S9 (:S9)
+
+ClassAssertion(:Symptom :S9)
+
+# Individual: :Se1 (:Se1)
+
+ClassAssertion(:Sequel :Se1)
+
+# Individual: :Se10 (:Se10)
+
+ClassAssertion(:Sequel :Se10)
+
+# Individual: :Se2 (:Se2)
+
+ClassAssertion(:Sequel :Se2)
+
+# Individual: :Se3 (:Se3)
+
+ClassAssertion(:Sequel :Se3)
+
+# Individual: :Se4 (:Se4)
+
+ClassAssertion(:Sequel :Se4)
+
+# Individual: :Se5 (:Se5)
+
+ClassAssertion(:Sequel :Se5)
+
+# Individual: :Se6 (:Se6)
+
+ClassAssertion(:Sequel :Se6)
+
+# Individual: :Se7 (:Se7)
+
+ClassAssertion(:Sequel :Se7)
+
+# Individual: :Se8 (:Se8)
+
+ClassAssertion(:Sequel :Se8)
+
+# Individual: :Se9 (:Se9)
+
+ClassAssertion(:Sequel :Se9)
+
+# Individual: :Sinovac (:Sinovac)
+
+ClassAssertion(:Vaccine :Sinovac)
+
+# Individual: :Throat_Pain (:Throat_Pain)
+
+ClassAssertion(:Symptom :Throat_Pain)
+
+# Individual: :Tireness (:Tireness)
+
+ClassAssertion(:Symptom :Tireness)
+
+# Individual: :Tobacco (:Tobacco)
+
+ClassAssertion(:Cormobidity :Tobacco)
+
+# Individual: :V1 (:V1)
+
+ClassAssertion(:Vaccine :V1)
+
+# Individual: :V10 (:V10)
+
+ClassAssertion(:Vaccine :V10)
+
+# Individual: :V2 (:V2)
+
+ClassAssertion(:Vaccine :V2)
+
+# Individual: :V3 (:V3)
+
+ClassAssertion(:Vaccine :V3)
+
+# Individual: :V4 (:V4)
+
+ClassAssertion(:Vaccine :V4)
+
+# Individual: :V5 (:V5)
+
+ClassAssertion(:Vaccine :V5)
+
+# Individual: :V6 (:V6)
+
+ClassAssertion(:Vaccine :V6)
+
+# Individual: :V7 (:V7)
+
+ClassAssertion(:Vaccine :V7)
+
+# Individual: :V8 (:V8)
+
+ClassAssertion(:Vaccine :V8)
+
+# Individual: :V9 (:V9)
+
+ClassAssertion(:Vaccine :V9)
+
+
+DisjointClasses(:Contagion_Chain :Country :Disease :District :Medical_Unit :Person :Province :Symptom :Virus)
+DisjointClasses(:Patient_Active :Person_Deceased :Person_Recovered)
+DifferentIndividuals(:Centro_Habana :Malaga)
+DifferentIndividuals(:Female :Male)
+DifferentIndividuals(:Patient_1 :Patient_10 :Patient_11 :Patient_2 :Patient_3 :Patient_4 :Patient_5 :Patient_6 :Patient_7 :Patient_8 :Patient_9)
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "Reaction For Group"^^xsd:string) Body(ClassAtom(:Group Variable(:G)) ObjectPropertyAtom(:Is_Adverse_Reaction_Of Variable(:S) Variable(:P)) ObjectPropertyAtom(:Is_Group_Of Variable(:G) Variable(:P)) ClassAtom(:Adeverse_Reaction Variable(:S)) ClassAtom(:Person Variable(:P)))Head(ObjectPropertyAtom(:Is_Adverse_Reaction_Of_Group Variable(:S) Variable(:G))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "Es_cadena"^^xsd:string) Body(ClassAtom(:Contagion_Chain Variable(:C)) ClassAtom(:Person Variable(:P2)) ClassAtom(:Person Variable(:P1)) ObjectPropertyAtom(:Infected_Directly_To Variable(:P2) Variable(:P1)) ObjectPropertyAtom(:Is_Chain_of Variable(:C) Variable(:P1)))Head(ObjectPropertyAtom(:Is_Chain_of Variable(:C) Variable(:P2))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "Cadena Internacional"^^xsd:string) Body(ClassAtom(:Contagion_Chain Variable(:C)) ClassAtom(:Person Variable(:P2)) DifferentIndividualsAtom(Variable(:M1) Variable(:M2)) ClassAtom(:Person Variable(:P1)) ObjectPropertyAtom(:Lives_In_Country Variable(:P1) Variable(:M2)) ObjectPropertyAtom(:Lives_In_Country Variable(:P2) Variable(:M1)) ObjectPropertyAtom(:Is_Chain_of Variable(:C) Variable(:P1)) ObjectPropertyAtom(:Is_Chain_of Variable(:C) Variable(:P2)))Head(ClassAtom(:Contagion_Chain_International Variable(:C))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "Cadena Multi ciudad"^^xsd:string) Body(ClassAtom(:Contagion_Chain Variable(:C)) ClassAtom(:Person Variable(:P2)) DifferentIndividualsAtom(Variable(:M1) Variable(:M2)) ClassAtom(:Person Variable(:P1)) ObjectPropertyAtom(:Is_Chain_of Variable(:C) Variable(:P1)) ObjectPropertyAtom(:Lives_in_District Variable(:P2) Variable(:M1)) ObjectPropertyAtom(:Is_Chain_of Variable(:C) Variable(:P2)) ObjectPropertyAtom(:Lives_in_District Variable(:P1) Variable(:M2)))Head(ClassAtom(:Contagion_Chain_MultiCity Variable(:C))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "PrimerCaso"^^xsd:string) Body(ClassAtom(:Contagion_Chain Variable(:C)) ObjectPropertyAtom(:Has_First_Case Variable(:C) Variable(:P)) ObjectPropertyAtom(:Is_Chain_of Variable(:C) Variable(:P)) DataPropertyAtom(:Has_Infection_Date Variable(:P) Variable(:F)))Head(DataPropertyAtom(:Has_Date_Start Variable(:C) Variable(:F))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "Ultimo Caso"^^xsd:string) Body(ClassAtom(:Contagion_Chain Variable(:C)) ObjectPropertyAtom(:Is_Chain_of Variable(:C) Variable(:P)) DataPropertyAtom(:Has_Infection_Date Variable(:P) Variable(:F)) ObjectPropertyAtom(:Has_Last_Case Variable(:C) Variable(:P)))Head(DataPropertyAtom(:Hast_Date_End Variable(:C) Variable(:F))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "Sequel for group"^^xsd:string) Body(ClassAtom(:Group Variable(:G)) ObjectPropertyAtom(:Is_Group_Of Variable(:G) Variable(:P)) ObjectPropertyAtom(:Is_Sequel_Of Variable(:S) Variable(:P)) ClassAtom(:Sequel Variable(:S)) ClassAtom(:Person Variable(:P)))Head(ObjectPropertyAtom(:Is_Sequel_Of_Group Variable(:S) Variable(:G))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "Symptom for Group"^^xsd:string) Body(ClassAtom(:Group Variable(:G)) ObjectPropertyAtom(:Is_Group_Of Variable(:G) Variable(:P)) ObjectPropertyAtom(:Is_Symptom_Of Variable(:S) Variable(:P)) ClassAtom(:Symptom Variable(:S)) ClassAtom(:Person Variable(:P)))Head(ObjectPropertyAtom(:Is_Symptom_Of_Group Variable(:S) Variable(:G))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "Vaccine For Group"^^xsd:string) Body(ObjectPropertyAtom(:Is_Vaccine_Of Variable(:S) Variable(:P)) ClassAtom(:Group Variable(:G)) ObjectPropertyAtom(:Is_Group_Of Variable(:G) Variable(:P)) ClassAtom(:Vaccine Variable(:S)) ClassAtom(:Person Variable(:P)))Head(ObjectPropertyAtom(:Is_Vaccine_Of_Group Variable(:S) Variable(:G))))
+)
