@@ -1,11 +1,11 @@
 # A method based on ontologies to support the automatic management of knowledge about Covid-19
 ## Manuscript ID: IEEE LATAM Submission ID: 9707
 ## Authors:
-•	Samia Allaoua-Chelloug <sup> 1 </sup> 
-•	Gilberto Fernando Castro Aguilar <sup> 2,3 </sup> 
-•	Nemury Silega <sup> 4 </sup> 
+•	Samia Allaoua-Chelloug <sup> 1 </sup>  
+•	Gilberto Fernando Castro Aguilar <sup> 2,3 </sup>  
+•	Nemury Silega <sup> 4 </sup>  
 •	Inelda Martillo Alcívar <sup> 3 </sup>  
-•	Mohammed Saleh Ali Muthanna <sup> 5 </sup>  
+•	Mohammed Saleh Ali Muthanna <sup> 5 </sup>   
 •	Ahmed Aziz <sup> 6 </sup>  
 ## Affiliations:
 <sup> 1 </sup> 1 Department of Information Technology, College of Computer and Information Sciences, Princess Nourah bint Abdulrahman University, Riyadh, Saudi Arabia
