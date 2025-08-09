@@ -1,24 +1,24 @@
 # A method based on ontologies to support the automatic management of knowledge about Covid-19
 ## Manuscript ID: IEEE LATAM Submission ID: 9707
 ## Authors:
-•	Samia Allaoua-Chelloug1 
-•	Gilberto Fernando Castro Aguilar2,3 
-•	Nemury Silega4
-•	Inelda Martillo Alcívar3 
-•	Mohammed Saleh Ali Muthanna5 
-•	Ahmed Aziz6 
+•	Samia Allaoua-Chelloug <sup> 1 </sup> 
+•	Gilberto Fernando Castro Aguilar <sup> 2,3 </sup> 
+•	Nemury Silega <sup> 4 </sup> 
+•	Inelda Martillo Alcívar <sup> 3 </sup>  
+•	Mohammed Saleh Ali Muthanna <sup> 5 </sup>  
+•	Ahmed Aziz <sup> 6 </sup>  
 ## Affiliations:
-1 Department of Information Technology, College of Computer and Information Sciences, Princess Nourah bint Abdulrahman University, Riyadh, Saudi Arabia
+<sup> 1 </sup> 1 Department of Information Technology, College of Computer and Information Sciences, Princess Nourah bint Abdulrahman University, Riyadh, Saudi Arabia
 
-2 Facultad de Ingeniería, Universidad Católica de Santiago de Guayaquil, Guayaquil, Ecuador
+<sup> 2 </sup>  Facultad de Ingeniería, Universidad Católica de Santiago de Guayaquil, Guayaquil, Ecuador
 
-3 Facultad de Ciencias Matemáticas y Físicas, Universidad de Guayaquil, Guayaquil, Ecuador
+<sup> 3 </sup>  Facultad de Ciencias Matemáticas y Físicas, Universidad de Guayaquil, Guayaquil, Ecuador
 
-4 Department of System Analysis and Telecommunications, Southern Federal University, Russia
+<sup> 4 </sup>  Department of System Analysis and Telecommunications, Southern Federal University, Russia
 
-5 Department of international business Management, Tashkent state university of Economics, Tashkent, Uzbekistan
+<sup> 5 </sup>  Department of international business Management, Tashkent state university of Economics, Tashkent, Uzbekistan
 
-6 Faculty of Computer and Artificial Intelligence, Benha University, Egypt and with Engineering school, Central Asian University, Tashkent, Uzbekistan
+<sup> 6 </sup>  Faculty of Computer and Artificial Intelligence, Benha University, Egypt and with Engineering school, Central Asian University, Tashkent, Uzbekistan
 
 
 ## Included Files 
